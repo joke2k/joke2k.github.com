@@ -1,0 +1,2 @@
+fabric
+-e git://github.com/mbrochh/pelican.git@mbrochh_theme#egg=pelican
