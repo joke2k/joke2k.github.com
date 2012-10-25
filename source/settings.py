@@ -1,8 +1,8 @@
 """Settings for pelican."""
 
 AUTHOR = 'Joke2k'
-SITENAME = 'joke2k.com'
-SITEURL = 'http://www.joke2k.com'
+SITENAME = 'joke2k.net'
+SITEURL = 'http://www.joke2k.net'
 
 # This can also be the absolute path to a theme that you downloaded
 # i.e. './themes/anothertheme/'
