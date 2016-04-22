@@ -169,6 +169,18 @@
         ga('create', 'UA-43608299-2', 'auto');
         ga('send', 'pageview');
 
+        $('a').click(function(e){
+            e.preventDefault();
+            var url = $(this).attr('href');
+            ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon',
+                'hitCallback': function(){
+                    document.location = url;
+                }
+            });
+            return false;
+        });
+
     </script>
 </body>
 </html>
